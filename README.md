@@ -22,3 +22,15 @@ git commit -m "commit message"
 git push
 ↓ //エイリアス化
 git acp "メッセージ"
+
+
+最初にやることは
+cd パス移動
+git init
+git remote add origin https://~
+ここまで。既に実行済みなので、ここからで良い。
+git add .  
+git commit -m "Initial commit"
+git push -u origin main 
+
+
