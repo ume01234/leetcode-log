@@ -1,20 +1,20 @@
-# 🧠 Two Sum (LeetCode #1)
+# Two Sum (LeetCode #1)
 
-## 📝 Problem
+## ✔︎ Problem
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
 
-## 🔍 My Thinking
+## ✔︎ My Thinking
 - At first, I thought of a brute-force approach using two loops.
 - But that would take O(n^2) time, which is inefficient.
 - Then I remembered hash maps are useful for complement checks.
 
-## ❌ Failed Attempt
+## ✔︎ Failed Attempt
 I tried storing all pairs first. It worked, but was too slow.
 
-## ✅ Final Solution
+## ✔︎ Final Solution
 Used a single-pass hash map to track the complement.
 (See `solution.py`)
 
-## 📌 Key Takeaways
+## ✔︎ Key Takeaways
 - Think of hash maps when you need quick lookups.
 - Avoid brute-force unless problem size is small.
