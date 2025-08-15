@@ -7,6 +7,6 @@
 ## ✔︎ Failed Attempt
 
 
-## ✔︎ Final Solution
+## ✔︎ Insights from Solution
 
-## ✔︎ Key Takeaways
+## ✔︎ Key Points
