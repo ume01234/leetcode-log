@@ -1,6 +1,6 @@
 # LeetCode-log
 
-This repository contains my personal learning journey through LeetCode problems.
+This repository contains my personal learning journey through LeetCode problems.   
 
 ---
 
@@ -8,22 +8,22 @@ This repository contains my personal learning journey through LeetCode problems.
 
 For each problem, I include:
 - `solution.py`: My final accepted solution. 
-- `README.md`: My thought process, failed attempts, and takeaways. 
+- `README.md`: My thought process, failed attempts, and takeaways.  
        - **Date solved, Time spent, Difficulty**  
        - **Problem** – summary in my own words  
        - **My Thinking** – initial approach and reasoning  
        - **Insights from Solution** – what I learned after reviewing the solution/editorial  
        - **Key Points** – lessons learned, patterns, and important reminders
 
-All notes are written in English to practice technical writing.  
-My goal is to improve both my algorithm skills and English technical writing.  
-Problems are organized as folders with the format: `0001-title-name`. 
+All notes are written in English to practice technical writing.   
+My goal is to improve both my algorithm skills and English technical writing.   
+Problems are organized as folders with the format: `0001-title-name`.  
 
 ---
 
 ## Problem List
 
-See [summary.md](./summary.md) for a full list of problems I've solved.
+See [summary.md](./summary.md) for a full list of problems I've solved.  
 
 ---
 
@@ -32,15 +32,13 @@ See [summary.md](./summary.md) for a full list of problems I've solved.
 ```
 git add .
 git commit -m "commit message"
-git push
-↓ //エイリアス化
+git push #//エイリアス化
 git acp "メッセージ"
-
 #ここからやること
-cd パス移動
+cd #パス移動
 git init
 git remote add origin https://~
-ここまで。既に実行済みなので、ここからで良い。
+#ここまで既に実行済みなので、以下を実行。
 git add .  
 git commit -m "commit message"
 git push -u origin main 
