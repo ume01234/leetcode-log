@@ -7,19 +7,17 @@ This repository contains my personal learning journey through LeetCode problems.
 ## Repository Structure
 
 For each problem, I include:
-- `solution.py`: My final accepted solution
-- `README.md`: My thought process, failed attempts, and takeaways 
+- `solution.py`: My final accepted solution. 
+- `README.md`: My thought process, failed attempts, and takeaways. 
        - **Date solved, Time spent, Difficulty**  
        - **Problem** – summary in my own words  
        - **My Thinking** – initial approach and reasoning  
        - **Insights from Solution** – what I learned after reviewing the solution/editorial  
        - **Key Points** – lessons learned, patterns, and important reminders
 
-All notes are written in English to practice technical writing.
-
-My goal is to improve both my algorithm skills and English technical writing.
-
-Problems are organized as folders with the format: `0001-title-name`
+All notes are written in English to practice technical writing.  
+My goal is to improve both my algorithm skills and English technical writing.  
+Problems are organized as folders with the format: `0001-title-name`. 
 
 ---
 
