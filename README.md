@@ -1,6 +1,8 @@
 # LeetCode-log
-
-This repository contains my personal learning journey through LeetCode problems.   
+ 
+This repository documents my daily practice solving LeetCode problems  
+as part of my continuous effort to improve algorithmic thinking, problem-solving skills,  
+and technical writing in English.
 
 ---
 
