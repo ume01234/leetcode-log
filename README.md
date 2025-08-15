@@ -34,13 +34,13 @@ See [summary.md](./summary.md) for a full list of problems I've solved.
 ```
 git add .
 git commit -m "commit message"
-git push #//エイリアス化
-git acp "メッセージ"
-#ここからやること
-cd #パス移動
+git push #create an alias
+git acp "message"
+#run the following next
+cd #change the path
 git init
 git remote add origin https://~
-#ここまで既に実行済みなので、以下を実行。
+#Up to this point has already been executed. what to do next.  
 git add .  
 git commit -m "commit message"
 git push -u origin main 
