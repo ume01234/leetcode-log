@@ -9,7 +9,6 @@ This repository contains my personal learning journey through LeetCode problems.
 For each problem, I include:
 - `solution.py`: My final accepted solution
 - `README.md`: My thought process, failed attempts, and takeaways 
-
        - **Date solved, Time spent, Difficulty**  
        - **Problem** – summary in my own words  
        - **My Thinking** – initial approach and reasoning  
