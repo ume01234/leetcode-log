@@ -1,6 +1,6 @@
 # Add Two Numbers (LeetCode #2)
 
-## ✔︎ Problem
+## ✔︎ Problem Summary
 
 ## ✔︎ My Thinking
 
