@@ -25,7 +25,7 @@ Problems are organized as folders with the format: `0001-title-name`.
 
 ## Problem List
 
-See [summary.md](./summary.md) for a full list of problems I've solved.  
+See [summary.md](./summary-list.md) for a full list of problems I've solved.  
 
 ---
 
