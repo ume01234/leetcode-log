@@ -1,7 +1,7 @@
 # Two Sum (LeetCode #1)
 
-**Date solved:** YYYY-MM-DD  
-**Time spent:** <minutes>  
+**Date solved:** 2025-06-04
+**Time spent:** about 60min  
 **Difficulty:** Easy
 
 ## ✔︎ Problem Summary
