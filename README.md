@@ -2,11 +2,14 @@
 
 This repository contains my personal learning journey through LeetCode problems.
 
+---
+
 ## Repository Structure
 
 For each problem, I include:
 - `solution.py`: My final accepted solution
-- `README.md`: My thought process, failed attempts, and takeaways
+- `README.md`: My thought process, failed attempts, and takeaways 
+
        - **Date solved, Time spent, Difficulty**  
        - **Problem** – summary in my own words  
        - **My Thinking** – initial approach and reasoning  
@@ -14,7 +17,9 @@ For each problem, I include:
        - **Key Points** – lessons learned, patterns, and important reminders
 
 All notes are written in English to practice technical writing.
+
 My goal is to improve both my algorithm skills and English technical writing.
+
 Problems are organized as folders with the format: `0001-title-name`
 
 ---
@@ -23,21 +28,25 @@ Problems are organized as folders with the format: `0001-title-name`
 
 See [summary.md](./summary.md) for a full list of problems I've solved.
 
-## MEMO
+---
+
+## MEMO(how to use github)
+
+```
 git add .
 git commit -m "commit message"
 git push
 ↓ //エイリアス化
 git acp "メッセージ"
 
-
-最初にやることは
+#ここからやること
 cd パス移動
 git init
 git remote add origin https://~
 ここまで。既に実行済みなので、ここからで良い。
 git add .  
-git commit -m "Initial commit"
+git commit -m "commit message"
 git push -u origin main 
+```
 
 
