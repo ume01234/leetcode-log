@@ -9,13 +9,6 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 
 ## ✔︎ My Thinking
 At first, I thought of a brute-force approach using two loops.　As below.   
-```
-def twoSum(self, nums: List[int], target: int) -> List[int]:
-    for i in range(len(nums)):
-        for j in range(i + 1, len(nums)):
-            if nums[j] == target - nums[i]:
-                return [i, j]
-```
 This was not an error, and the result was correct, but it was computationally inefficient and could potentially take an extremely long time to run if scaled up.  
 
 ## ✔︎ Insights from Solution
@@ -24,6 +17,17 @@ When iterating through the elements of a given array, it searches a hash map(dic
 if not, it repeatedly adds that element.  
 The search time for a hash map is O(1) on average, which is shorter than the O(n^2) average for brute force searching.  
 The built-in function *enumerate()* can retrieve the element and index simultaneously when looping with a for statement, etc.   
+The answer is:   
+ ```
+class Solution:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
+        num_map = {}
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in num_map:
+                return [num_map[complement], i]
+            num_map[num] = i
+ ```
 
 ## ✔︎ Key Points
 - Use Hash Map for quick complement lookup.  
