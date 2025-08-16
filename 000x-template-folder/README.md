@@ -1,7 +1,7 @@
 #templete for new problems
 
 
-# Palindrome Number (LeetCode #9)
+# problem name (LeetCode #xx)
 
 **Date solved:** yyyy-mm-dd
 **Time spent:** min
@@ -9,6 +9,5 @@
 
 ## ✔︎ Problem Summary
 ## ✔︎ My Thinking
-## ✔︎ Failed Attempt
 ## ✔︎ Insights from Solution
 ## ✔︎ Key Points
