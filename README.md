@@ -2,7 +2,7 @@
 
 Self-study log aimed at enhancing coding skills and English proficiency.
 This repository documents my daily practice solving LeetCode problems  
-as part of my continuous effort to improve algorithmic thinking, problem-solving skills,and technical writing in English.
+as part of my continuous effort to improve algorithmic thinking, problem-solving skills,and technical writing in English.  
 [日本語のreadmeファイル](./README-ja.md)
 
 ---
