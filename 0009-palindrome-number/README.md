@@ -1,8 +1,8 @@
 # Palindrome Number (LeetCode #9)
 
-**Date solved:** 2025-08-15
-**Time spent:** about 20min 
-**Difficulty:** Easy
+**Date solved:** 2025-08-15  
+**Time spent:** about 20min  
+**Difficulty:** Easy  
 
 ## ✔︎ Problem Summary
 Given an integer `x`, return `true` if `x` is a *palindrome*, and `false` otherwise.
