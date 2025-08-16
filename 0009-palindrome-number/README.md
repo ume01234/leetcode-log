@@ -5,7 +5,8 @@
 **Difficulty:** Easy
 
 ## ✔︎ Problem Summary
-
+Given an integer `x`, return `true` if `x` is a *palindrome*, and `false` otherwise.
+A `palindrome` is an integer that is the same whether read from right to left or right to left.
 
 ## ✔︎ My Thinking
 
@@ -17,4 +18,6 @@
 
 
 ## ✔︎ Key Points
+- 
+- 
 
