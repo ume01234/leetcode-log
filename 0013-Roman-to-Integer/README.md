@@ -1,4 +1,4 @@
-# problem name (LeetCode #xx)
+# problem name (LeetCode #13)
 
 **Date solved:** 2025-08-16
 **Time spent:** 35min
