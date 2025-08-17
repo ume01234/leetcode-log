@@ -1,8 +1,8 @@
 # problem name (LeetCode #13)
 
-**Date solved:** 2025-08-16
-**Time spent:** 35min
-**Difficulty:** Easy
+**Date solved:** 2025-08-16  
+**Time spent:** 35min  
+**Difficulty:** Easy  
 
 ## ✔︎ Problem Summary
 The problem is to convert a Roman numeral string s, composed of the characters I, V, X, L, C, D, M, into an integer.  
