@@ -9,5 +9,5 @@
 
 ## ✔︎ Problem Summary
 ## ✔︎ My Thinking
-## ✔︎ Insights from Solution
+## ✔︎ Insights from Discussion
 ## ✔︎ Key Points
