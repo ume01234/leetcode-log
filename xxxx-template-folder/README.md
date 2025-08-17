@@ -3,9 +3,9 @@
 
 # problem name (LeetCode #xx)
 
-**Date solved:** yyyy-mm-dd
-**Time spent:** min
-**Difficulty:** Easy / Medium / Hard
+**Date solved:** yyyy-mm-dd   
+**Time spent:**  min  
+**Difficulty:** Easy / Medium / Hard   
 
 ## ✔︎ Problem Summary
 ## ✔︎ My Thinking
