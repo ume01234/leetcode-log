@@ -39,5 +39,5 @@ With this perspective, the solution becomes much more concise.
 Furthermore, by using a dictionary to map each Roman numeral to its corresponding value, the code becomes more efficient.  
 
 ## ✔︎ Key Points
-- 
-- 
+- Recognizing patterns in problem statements often leads to simpler solutions.  
+- I use a lookahead guard (i + 1 < len(s)) so that when i is at the last character, the code won’t access s[i+1] and raise an IndexError.  
