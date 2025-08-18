@@ -41,3 +41,4 @@ Furthermore, by using a dictionary to map each Roman numeral to its correspondin
 ## ✔︎ Key Points
 - Recognizing patterns in problem statements often leads to simpler solutions.  
 - I use a lookahead guard (i + 1 < len(s)) so that when i is at the last character, the code won’t access s[i+1] and raise an IndexError.  
+- Lookahead guard means checking the boundary before accessing the next element, to avoid index errors.  
