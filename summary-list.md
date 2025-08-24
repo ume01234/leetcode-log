@@ -6,8 +6,10 @@
 | 2 | Palindrome-number | 2025-08-15 | [0009-palindrome-number](./0009-palindrome-number/) |
 | 3 | Roman-to-Integer | 2025-08-16 | [0013-Roman-to-Integer](./0013-Roman-to-Integer/) |
 | 4 | Longest-common-prefix | 2025-08-18 | [0014-Longest-common-prefix](./0014-Longest-common-prefix/) |
-| 5 | Valid-parentheses | yyyy-mm-dd | [0020-Valid-parentheses](./0020-Valid-parentheses/) |
-| 6 | Merge-two-sorted-lists | yyyy-mm-dd | [0021-Merge-two-sorted-lists](./0021-Merge-two-sorted-lists/) |
-| 7 | Remove-duplicates-from-sorted-array | yyyy-mm-dd | [0026-Remove-duplicates-from-sorted-array](./0026-Remove-duplicates-from-sorted-array/) |
+| 5 | Valid-parentheses | 2025-08-dd | [0020-Valid-parentheses](./0020-Valid-parentheses/) |
+| 6 | Merge-two-sorted-lists | 2025-08-dd | [0021-Merge-two-sorted-lists](./0021-Merge-two-sorted-lists/) |
+| 7 | Remove-duplicates-from-sorted-array | 2025-08-dd | [0026-Remove-duplicates-from-sorted-array](./0026-Remove-duplicates-from-sorted-array/) |
+| 8 | Remove-element | 2025-08-dd | [0027-Remove-element](./0027-Remove-element/) |
+| 9 | Find-the-index-of-the-first-occurrence-in-a-string | 2025-08-dd | [0028-Find-the-index-of-the-first-occurrence-in-a-string](./0028-Find-the-index-of-the-first-occurrence-in-a-string/) |
 | n | next | yyyy-mm-dd | [000x-next](./000/) |
 
