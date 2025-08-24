@@ -5,7 +5,7 @@
 **Difficulty:** Easy  
 
 ## ✔︎ Problem Summary
-
+リストの中でvalとして与えられた数字を削除してリストを返す問題。  
 
 ## ✔︎ My Thinking
 
@@ -14,5 +14,5 @@
 
 
 ## ✔︎ Key Points
-
+- 
 
