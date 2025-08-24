@@ -12,7 +12,8 @@ while文で要素を順に参照していき、一つ前の要素と一致した
 ```
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-
+        if not nums:
+            return 0
         i = 1
         while i < len(nums):
             if nums[i-1] == nums[i]:
@@ -24,10 +25,13 @@ class Solution:
         k = len(nums)
         return k
 ```
-
+ただこれは、効率的な観点で最適解ではない。
 
 
 ## ✔︎ Insights from Discussion
-
+.popによる操作は操作対象の要素の、後続の要素全てをスライドさせるので、時間計算量が多くなる。pop(i)でO(n-i)になる。  
+2ポインタ法(上書きして前詰め)を利用した方法が最適解である。これは各要素を1回だけ読むので、時間計算量O(n)である。
+この問題は先頭からk個だけが正しい列になっていれば合格なので、リスト全てを完成させる必要はない。
 
 ## ✔︎ Key Points
+- 時間計算量の最適化のため、必要最低限の変更で回答することが望ましい。
