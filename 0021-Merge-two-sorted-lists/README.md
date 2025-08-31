@@ -1,14 +1,16 @@
 # Merge two sorted lists (LeetCode #21)
 
 **Date solved:** 2025-08-20   
-**Time spent:**  min  
+**Time spent:**  20min  
 **Difficulty:** Easy   
 
 ## ✔︎ Problem Summary
-二つの整列ずみリストノードを合成して一つの整列ずみリストを返す問題。同じ数字の場合はどちらの要素から追加しても構わない。
+This problem is to return one sorted list from two list nodes.
+It doesn’t matter which one is added first if the two numbers are the same.
 
 ## ✔︎ My Thinking
-はじめ、入力がリストノードではなく単なるリストだと誤認して解いた。その場合のコードが以下である。：
+At first, I misunderstood that the input was not a list node but simply a list.
+The incorrect code is below:
 ```
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
@@ -29,14 +31,15 @@ class Solution:
         out.extend(list2[j:])
         return out
 ```
-二つのリストの長さについてのwhile文を回し、小さい方をリストに追加し、追加した方のカウントを増やすというロジックである。片方の要素が先になくなった時、while文を抜けて残りのリストの要素を追加するように、whileの条件文はandを用いた。
-
+I used a while loop about the lengths of the two lists. If the smaller one was added to the list, then its counter was increased by 1.
+I used and in the while loop because when one of them finished, it escaped from the while loop and added the rest of the list to the result.
 
 ## ✔︎ Insights from Discussion
-ロジックそれ自体は正しかったが、リストとリストノードでは処理の書き方が違う。
-ポインタ進めながら処理をするというのが基本方針。
-一つ一つの要素を箱に入れて、次の要素に進むことで参照するため、リストのようなランダムな参照ができない。具代的には、node.nextで次のノード、node.valで今のノードの値を参照する。
-先頭のノードも他のノードと同様に扱うために、ダミーノードを使用する。
+I corrected the logic itself, but the coding is not the same between a list and a list node.
+The basic policy is to process while moving the pointer.
+When using a pointer, it cannot reference randomly like a list, because it references by putting each element in a box and moving to the next element.
+In particular, node.next references the next node and node.val references the current node.
+This code uses a dummy node to handle the front node like the other nodes.
 
 ## ✔︎ Key Points
-- リストノードに対する処理は、一つ一つの要素を辿ることで参照する
+- To process a list node, it traverses the elements one by one.
