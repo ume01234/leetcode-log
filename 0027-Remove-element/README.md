@@ -5,7 +5,7 @@
 **Difficulty:** Easy  
 
 ## ✔︎ Problem Summary
-リストの中でvalとして与えられた数字を削除してリストを返す問題。  
+This problem is to delete the specific number called val from the list.
 
 ## ✔︎ My Thinking
 
