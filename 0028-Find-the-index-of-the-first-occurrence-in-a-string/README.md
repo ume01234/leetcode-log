@@ -5,7 +5,9 @@
 **Difficulty:** Easy  
 
 ## ✔︎ Problem Summary
-'needle'と'haystack'の2つの単語が与えられる。この時、'needle'の単語が'haystack'内にある場合は最初に発生したインデックスを返し、存在しない場合は-1を返す問題。
+Two words, needle and haystack, are given.  
+If haystack has needle inside it, we return the index where it first appears.  
+If it does not have needle, we return -1.  
 
 ## ✔︎ My Thinking
 
