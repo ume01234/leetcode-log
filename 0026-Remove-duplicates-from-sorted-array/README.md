@@ -5,10 +5,10 @@
 **Difficulty:** Easy  
 
 ## ✔︎ Problem Summary
-昇順に並んだリストについて、重複する要素を削除した上で要素の数を返す問題。
+This problem asks to return the number of elements in an ascending order list after removing the duplicates.  
 
 ## ✔︎ My Thinking
-while文で要素を順に参照していき、一つ前の要素と一致したらリストから.popし、もう一度同じインデックスを参照する。という処理を書いた結果、正解した。それが以下のコードである。
+I corrected the process so that if the next element is a duplicate, it is removed from the list, and I continue referencing the same index while checking the subsequent elements.  
 ```
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
@@ -25,13 +25,15 @@ class Solution:
         k = len(nums)
         return k
 ```
-ただこれは、効率的な観点で最適解ではない。
+However, it is not the best practice.  
 
 
 ## ✔︎ Insights from Discussion
-.popによる操作は操作対象の要素の、後続の要素全てをスライドさせるので、時間計算量が多くなる。pop(i)でO(n-i)になる。  
-2ポインタ法(上書きして前詰め)を利用した方法が最適解である。これは各要素を1回だけ読むので、時間計算量O(n)である。
-この問題は先頭からk個だけが正しい列になっていれば合格なので、リスト全てを完成させる必要はない。
+Operating with .pop increases the time complexity because this operation shifts all the elements after the target.  
+In the case of .pop(i), the complexity is O(n−i).  
+The best practice is to use the two-pointer method (overwrite and move forward).  
+This method reads all elements only once, so the time complexity is O(n).  
+For this problem, the requirement is that the first k elements are in the correct order; it is not necessary to update all the elements in the list.  
 
 ## ✔︎ Key Points
-- 時間計算量の最適化のため、必要最低限の変更で回答することが望ましい。
+- To optimize time complexity, it is better to provide an answer with the minimum necessary changes.  
