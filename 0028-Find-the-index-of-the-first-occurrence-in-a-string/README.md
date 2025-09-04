@@ -10,6 +10,16 @@ If haystack has needle inside it, we return the index where it first appears.
 If it does not have needle, we return -1.  
 
 ## ✔︎ My Thinking
+```
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        m = len(needle)
+
+        for i, x in enumerate(haystack):
+            if x == needle[0] and  haystack[i:i+m] == needle:
+                return i 
+        return -1
+```
 
 
 ## ✔︎ Insights from Discussion
