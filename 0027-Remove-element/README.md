@@ -4,10 +4,8 @@
 **Time spent:**  min  
 **Difficulty:** Easy  
 
-## ✔︎ Problem Summary
-This problem is to delete the specific number called val from the list.
+## ✔︎ Answer
 
-## ✔︎ My Thinking
 ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
@@ -21,11 +19,3 @@ class Solution:
                 i += 1
         return i
 ```
-
-
-## ✔︎ Insights from Discussion
-
-
-## ✔︎ Key Points
-- 
-
